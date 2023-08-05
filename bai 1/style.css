@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+  }  
+.chat{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 280px;
+}
+.chat .inner-head{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.chat .inner-head .inner-avatar{
+    background: #FE5DA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    color: #fff;
+}
+.chat .inner-head .inner-name{
+    font-weight: 700;
+    font-size: 14px;
+}
+.chat .inner-body{
+    padding: 10px;
+}
+.chat .inner-body .inner-answer{
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.chat .inner-body .inner-reply{
+    background-color: #FE5DA3;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 200px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+    margin-left: auto;
+}
+.chat .inner-footer{
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+.chat .inner-footer .inner-form{
+    display: flex;
+}
+.chat .inner-footer input{
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+.chat .inner-footer button{
+   border-radius: 15px;
+   height: 25px;
+   color: #fff;
+   border: 1px solid #ddd; 
+   background-color: #FE5DA3;   
+   padding: 0 10px;
+   flex: 1;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category .inner-item{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.category .inner-item img{
+    height: 100px;
+    width: auto;
+}
+.category .inner-item .inner-title {
+    font-size: 13px;
+    font-weight: 600;
+}
